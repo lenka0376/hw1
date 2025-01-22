@@ -1,0 +1,57 @@
+body{
+    display: flexbox;
+    padding: 20px;
+    text-align: center;
+    background-color: pink;
+}
+h1{
+    font-size: 60px;
+    color:blue;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 40px;
+    color: red;
+}
+h3{
+    font-size: 30px;
+    color: purple; 
+    text-transform: uppercase;
+}
+
+.info{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: bottom; 
+    padding: 20px;
+      
+}
+.address{
+    
+    background-color: aliceblue;
+    width: 34%;
+    text-align: left;
+    padding-left: 5px;
+}
+.date{
+
+    background-color: beige;
+    width: 33%;
+    text-align: left;
+    padding-left: 5px;
+}
+.reply{
+    background-color: blanchedalmond;
+    width: 33%;
+    text-align: left;
+    padding-left: 5px;
+}
+#border{
+    border: 5px solid red;
+    border-radius: 10px;
+    width: 639px ;
+    display:block;
+    margin: 0 auto;
+    
+}
